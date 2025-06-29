@@ -52,9 +52,9 @@ const Hero = () => {
 
       <HeroContent>
         <SmallTag>O app ideal para seu casamento</SmallTag>
-        <Title>Guarde memórias incríveis do seu grande dia</Title>
+        <Title>Guarde memórias incríveis do seu grande dia!</Title>
         <Subtitle>
-          Com o Buquee, seus convidados compartilham fotos e vídeos direto no telão da festa. Prático, divertido e inesquecível!
+          O Buquee conecta todos os momentos da sua festa. Fácil de usar, divertido e cheio de significado!
         </Subtitle>
         <Button />
       </HeroContent>

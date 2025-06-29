@@ -24,7 +24,7 @@ export const PlanCard = styled.div`
   background-color: #fff;
   border-radius: 16px;
   padding: 2rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 9px 12px rgba(0,0,0,0.05);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -77,7 +77,9 @@ export const Button = styled.button`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #333;
+    background: #EEF77D;
+    background: linear-gradient(0deg,rgba(238, 247, 125, 1) 0%, rgba(237, 58, 228, 1) 100%);
+    color: black;
   }
 `;
 

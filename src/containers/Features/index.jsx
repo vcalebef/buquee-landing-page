@@ -4,7 +4,7 @@ import { Camera, UploadCloud, MonitorPlay, ShieldCheck, TimerIcon, LigatureIcon,
 const features = [
   {
     icon: <Camera size={32} />,
-    text: "Fotos e videos exibidas em tempo real"
+    text: "Fotos e videos disponibilizadas na galeria do aplicativo"
   },
   {
     icon: <UploadCloud size={32} />,
@@ -20,7 +20,7 @@ const features = [
   },
   {
     icon: <TimerIcon size={32} />,
-    text: "Exibição em tempo real conforme as fotos e videos são enviados"
+    text: "Acompanhamento em tempo real conforme as fotos e videos são enviados"
   },
   {
     icon: <Download size={32} />,

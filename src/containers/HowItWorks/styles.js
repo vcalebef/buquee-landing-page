@@ -17,7 +17,7 @@ export const StepCard = styled.div`
   background-color: #f9f9f9;
   border-radius: 16px;
   padding: 2rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  box-shadow: 0 9px 12px rgba(0,0,0,0.05);
   transition: transform 0.3s ease;
 
   &:hover {
@@ -26,7 +26,7 @@ export const StepCard = styled.div`
 `;
 
 export const IconWrapper = styled.div`
-  background-color: #f1f1f1;
+  background-color: #EEF77D;
   border-radius: 50%;
   width: 64px;
   height: 64px;
@@ -34,7 +34,7 @@ export const IconWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  color:rgb(237, 58, 228); /* roxo elegante */
 `;
 
 export const Title = styled.h3`
@@ -47,6 +47,13 @@ export const Title = styled.h3`
 export const Description = styled.p`
   font-size: 0.95rem;
   color: #555;
+`;
+
+export const ImageExp = styled.img`
+  max-width: 200px;
+  width: 100%;
+  border-radius: 12px;
+  padding-top: 4px;
 `;
 
 export const QRCodeExample = styled.div`

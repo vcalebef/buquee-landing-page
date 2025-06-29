@@ -21,7 +21,7 @@ export const CarouselWrapper = styled.div`
 
 export const CarouselTrack = styled.div`
   display: flex;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.2s ease-in-out;
   transform: translateX(${({ $currentIndex }) => `-${$currentIndex * 100}%`});
 `;
 
@@ -31,7 +31,7 @@ export const TestimonialCard = styled.div`
   box-sizing: border-box;
   background: white;
   border-radius: 20px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 9px 12px rgba(0,0,0,0.05);
   display: flex;
   flex-direction: column;
   align-items: center;

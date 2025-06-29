@@ -45,8 +45,8 @@ export const NavLink = styled.a`
   transition: color 0.3s ease;
 
   &:hover {
-    color: rgb(122, 122, 122);
-    font-weight: 580;
+    color: black;
+    font-weight: 600;
   }
 
   @media (max-width: 768px) {

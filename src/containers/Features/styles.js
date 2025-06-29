@@ -22,11 +22,12 @@ export const FeaturesGrid = styled.div`
 `;
 
 export const FeatureCard = styled.div`
-  background-color:rgba(244, 149, 192, 0.64);
+  background: #EEF77D;
+  background: linear-gradient(0deg,rgba(238, 247, 125, 1) 0%, rgba(237, 58, 228, 1) 100%);
   backdrop-filter: blur(10px);
   padding: 2rem 1rem;
   border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  box-shadow: 0 9px 12px rgba(0,0,0,0.05);
   transition: transform 0.3s ease;
 
   &:hover {
@@ -36,11 +37,11 @@ export const FeatureCard = styled.div`
 
 export const IconWrapper = styled.div`
   margin-bottom: 1rem;
-  color: #7c3aed; /* roxo elegante */
+  color: #EEF77D; /* roxo elegante */
 `;
 
 export const FeatureText = styled.p`
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #333;
   line-height: 1.5;
 `;
