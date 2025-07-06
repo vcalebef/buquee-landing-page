@@ -21,8 +21,15 @@ export const NavLeft = styled.div`
   font-size: 1.4rem;
   font-weight: 600;
   color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  gap: 0.2rem; /* Espaço entre a imagem e o texto */
 
-  // continua visível em telas pequenas
+  img {
+    width: 1.4rem;  /* Tamanho similar ao emoji */
+    height: 1.4rem;
+    object-fit: contain;
+  }
 `;
 
 export const NavCenter = styled.nav`

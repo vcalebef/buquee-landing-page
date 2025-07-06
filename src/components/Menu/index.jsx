@@ -3,7 +3,10 @@ import { NavbarContainer, NavLeft, NavLink, NavCenter } from "./styles";
 const Menu = () => {
   return (
     <NavbarContainer>
-        <NavLeft>💐buquee</NavLeft>
+        <NavLeft>
+          <img src="../../assets/buqueeLogo.png" alt="Logo" />
+          buquee
+        </NavLeft>
             <NavCenter>
                 <NavLink href="#beneficios">Benefícios</NavLink>
                 <NavLink href="#como-funciona">Como funciona</NavLink>

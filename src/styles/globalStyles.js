@@ -7,11 +7,11 @@ const myGlobalStyles = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         font-family: 'Poppins', sans-serif;
+        scroll-behavior: smooth;
     }
 
     body {
         background-color: #F6F6F4;
-        scroll-behavior: smooth;
     }
 
 `
