@@ -31,7 +31,7 @@ const HowItWorks = () => {
           <Description>
             Acompanhe fotos e vídeos enviados em tempo real e exiba tudo durante a festa.
           </Description>
-          <ImageExp src="../../../public/assets/imageExibe.png" alt="Noivos e convidados vizualizando as fotos e videos"/>
+          <ImageExp src="../../../public/assets/noivosView.png" alt="Noivos e convidados vizualizando as fotos e videos"/>
         </StepCard>
 
         <StepCard>
