@@ -5,7 +5,9 @@ const Menu = () => {
     <NavbarContainer>
         <NavLeft>
           <img src="../../assets/buqueeLogo.png" alt="Logo" />
-          buquee
+          <a href="#hero" style={{ textDecoration: 'none', color: 'inherit' }}>
+            buquee
+          </a>
         </NavLeft>
             <NavCenter>
                 <NavLink href="#beneficios">Benefícios</NavLink>

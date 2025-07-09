@@ -3,7 +3,9 @@ import { MyButtonWrapper, MyButton } from "./styles"
 function Button() {
   return (
     <MyButtonWrapper>
-      <MyButton>Experimente agora!!</MyButton>
+      <a href="#planos">
+        <MyButton>Experimente agora!!</MyButton>
+      </a>
     </MyButtonWrapper>
   )
 }

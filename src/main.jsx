@@ -13,7 +13,10 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <MyGlobalStyles />
     <Menu />
-    <Hero />
+
+    <section id='hero'>
+      <Hero />
+    </section>
 
     <section id="beneficios">
       <Features />
