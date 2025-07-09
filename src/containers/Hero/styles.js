@@ -57,19 +57,12 @@ export const MediaGrid = styled.div`
     pointer-events: none;
   }
 
-  @media (min-width: 100px) and (max-width: 399px) {
+  @media (min-width: 100px) and (max-width: 999px) {
     column-count: 3;
   }
 
-  @media (min-width: 400px) and (max-width: 699px) {
-    column-count: 4;
-  }
-
-  @media (min-width: 700px) and (max-width: 999px) {
-    column-count: 5;
-  }
-
   @media (min-width: 1000px) and (max-width: 1599px) {
+    column-count: 3;
     max-width: 1500px;
   }
 
